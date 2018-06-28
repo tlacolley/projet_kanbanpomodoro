@@ -2,8 +2,10 @@ $(document).ready(function(){
 
 $(".buttonTask").click(function(){
 
-    var newtask = $("#newTask").HTML()
-
+    var newTask=$("#newTask").get();
+    alert(newTask);
+    // $('#toDo').append('<li>');
+    // $('li').append();
 
 })
 
