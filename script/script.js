@@ -4,7 +4,7 @@ $(".buttonTask").click(function(){
 
     var newTask = $("#newTask").val();
     var list = $("<li>")
-    list.addClass("draggable")
+    list.addClass("draggable");
     $('#toDo').append(list);
     $(list).append(newTask);
     $("#newTask").val("");
@@ -18,20 +18,8 @@ $(".buttonTask").click(function(){
 $("#toDo").sortable();
 
 $("#btnDebut").click(function(){
-
-    console.log("db");
-
-    $('.timer').startTimer({
-        // onComplete: function(element){
-        //     alert("brhiebeo");
-        // }
-    })
-
+    $('#inProg').append($('#toDo li').first());
+    $('.timer').startTimer();
+            });
 
 });
-
-
-
-
-
-	});
