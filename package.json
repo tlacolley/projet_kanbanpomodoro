@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tlacolley/projet_kanbanpomodoro#readme",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "jquery-sortable": "^0.9.13"
   }
 }
