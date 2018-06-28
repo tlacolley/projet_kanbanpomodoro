@@ -1,64 +1,123 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"  crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/style.css">
-        <title>Kanban pomodoro</title>
-    </head>
-    <body>
 
-        <main>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Kanban pomodoro</title>
+</head>
 
+<body>
 
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+    </div>
 
+    <!-- <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">A faire</th>
+                    <th scope="col">En cours</th>
+                    <th scope="col">Fait</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tâche 3</td>
+                    <td>25</td>
+                    <td>Tâche 1</td>
+                </tr>
+                <tr>
+                    <td>Tâche 4</td>
+                    <td>Début</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table> -->
 
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">
+    <div class="container">
+        <h1>Kanban Pomodoro</h1>
+        <div class="row">
+            <div class="col">
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button">Button</button>
-                  </div>
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">Button</button>
+                    </div>
                 </div>
-            </th>
+            </div>
+            <!--col-->
+        </div>
+        <!--row1-->
 
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-        </tr>
-    </tbody>
-</table>
+        <div class="row 1 ">
+            <div class="col border">
+                <h2>A faire</h2>
+            </div>
+            <div class="col border">
+                <h2>En cours</h2>
+            </div>
+            <div class="col border">
+                <h2>Fait</h2>
+            </div>
+        </div>
+        <!--row2-->
 
-        </main>
+        <div class="row 2 border border-top-0">
+            <div class="col">
+                <p>
+                    Tâche 3
+                </p>
+                <p>
+                    Tâche 4
+                </p>
+                <p>
+                    Tâche 5
+                </p>
+            </div>
+            <div class="col border-left border-right">
+                <p>
+                    25:00
+                </p>
+                <button>Début</button>
+                <button>Fin</button>
+            </div>
+            <div class="col">
+                <p>
+                    Tâche 1
+                </p>
+                <p>
+                    Tâche 2
+                </p>
+                <p>
+                    Tâche 6
+                </p>
+            </div>
+        </div>
+        <!--row3-->
+
+    </div>
 
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"  crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"  crossorigin="anonymous"></script>
 
-        <script src="script/script.js">
 
-        </script>
-    </body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <script src="script/script.js">
+    </script>
+</body>
+
 </html>
