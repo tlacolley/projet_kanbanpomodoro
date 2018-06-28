@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/tlacolley/projet_kanbanpomodoro#readme",
   "dependencies": {
+    "countdown": "^2.6.0",
     "jquery": "^3.3.1",
+    "jquery-simple-timer": "^1.0.1",
     "jquery-sortable": "^0.9.13",
     "jqueryui": "^1.11.1",
     "sortablejs": "^1.7.0"
