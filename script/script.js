@@ -8,18 +8,11 @@ $(".buttonTask").click(function(){
     $('#toDo').append(list);
     $(list).append(newTask);
     $("#newTask").val("");
+
 })
+$("#toDo").sortable();
 
 
 
-
-  $(".draggable").sortable();
-  $(".draggable").css({
-      "position":"absolute",
-      "cursor": "move",
-      "border": "solid 1px black",
-
-
-  });
 
 });
