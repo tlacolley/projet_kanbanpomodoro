@@ -10,48 +10,17 @@
 
 <body>
 
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button">Button</button>
-        </div>
-    </div>
 
-    <!-- <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">A faire</th>
-                    <th scope="col">En cours</th>
-                    <th scope="col">Fait</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Tâche 3</td>
-                    <td>25</td>
-                    <td>Tâche 1</td>
-                </tr>
-                <tr>
-                    <td>Tâche 4</td>
-                    <td>Début</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-            </tbody>
-        </table> -->
 
-    <div class="container">
-        <h1>Kanban Pomodoro</h1>
+
+    <div class="container text-center">
+        <h1 >Kanban Pomodoro</h1>
         <div class="row">
             <div class="col">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <input id="newTask" type="text" class="form-control" placeholder="Nouvelle tache" aria-label="Nouvelle tache " aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button">Button</button>
+                        <button class="btn btn-outline-secondary buttonTask" type="button">Ajouter</button>
                     </div>
                 </div>
             </div>
@@ -72,7 +41,7 @@
         </div>
         <!--row2-->
 
-        <div class="row 2 border border-top-0">
+        <div class="row 2 border border-top-0 ">
             <div class="col">
                 <p>
                     Tâche 3
@@ -84,23 +53,20 @@
                     Tâche 5
                 </p>
             </div>
-            <div class="col border-left border-right">
-                <p>
+            <div class="col border-left border-right d-flex justify-content-center flex-column">
+                <p class="text-center">
                     25:00
                 </p>
-                <button>Début</button>
-                <button>Fin</button>
+                <button class=" d-inline">Début</button>
+                <button class=" d-inline">Fin</button>
             </div>
             <div class="col">
-                <p>
-                    Tâche 1
-                </p>
-                <p>
-                    Tâche 2
-                </p>
-                <p>
-                    Tâche 6
-                </p>
+                <ul>
+                    <li>Tâche 1</li>
+                    <li>Tâche 2</li>
+                    <li>Tâche 6</li>
+                </ul>
+
             </div>
         </div>
         <!--row3-->
